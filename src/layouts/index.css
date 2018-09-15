@@ -1,5 +1,5 @@
 /* custom font */
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Work+Sans:300');
 
 html {
   font-family: sans-serif;
@@ -42,6 +42,8 @@ template {
 }
 a {
   background-color: transparent;
+  color: #767d88;
+  font-family: 'Space Mono', sans-serif;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
@@ -50,8 +52,8 @@ a:hover {
 }
 abbr[title] {
   border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
+  /* text-decoration: underline;
+  text-decoration: underline dotted; */
 }
 b,
 strong {
@@ -199,9 +201,11 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  background-color: #E8EBF0;
+  color: #767d88;
+  font-family: 'Work Sans', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -230,12 +234,13 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #767d88;
+  font-family: 'Space Mono', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 h2 {
@@ -247,12 +252,10 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  color: #767d88;
+  font-family: 'Space Mono', sans-serif;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 1.5rem;
   line-height: 1.1;
 }
 h3 {
@@ -265,9 +268,8 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;

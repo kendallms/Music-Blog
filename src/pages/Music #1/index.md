@@ -2,7 +2,7 @@
 
 path: '/music-1'
 
-date: '2018-09-14T13:35:00+00:00'
+date: '2018-09-14'
 
 title: "What I'm Listening to Today"
 
